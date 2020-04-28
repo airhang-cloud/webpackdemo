@@ -5,7 +5,8 @@
   "main": "a.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack"
+    "dev": "webpack",
+    "server": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/airhang-cloud/webpackdemo#readme",
   "dependencies": {
-    "webpack": "^4.43.0"
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.10.3"
   },
   "devDependencies": {
     "webpack-cli": "^3.3.11"
